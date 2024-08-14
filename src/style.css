@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url(https://wallpaperaccess.com/full/3648398.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.card {
+  background-color: black;
+}
