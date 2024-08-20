@@ -12,10 +12,10 @@ window.onload = function() {
 
   let result = [];
 
-  theme.forEach(elemento1 => {
-    action.forEach(elemento2 => {
-      host.forEach(elemento3 => {
-        result.push(`${elemento1}${elemento2}${elemento3}`);
+  theme.forEach(themeElement => {
+    action.forEach(actionElement => {
+      host.forEach(hostElement => {
+        result.push(`${themeElement}${actionElement}${hostElement}`);
       });
     });
   });
